@@ -20,7 +20,6 @@ class TabLink {
       this.cards = document.querySelectorAll(`div[data-tab="${this.tabData}"]`);
     }
 
-    console.log(this.cards);
     
      // Map over the newly converted NodeList we just created in our if statement above. Convert each this.cards element into a new instance of the TabCard class. Pass in a card object to the TabCard class. 
     this.cards = Array.from(this.cards).map(card=> new TabCard(card));
@@ -72,7 +71,7 @@ class TabCard {
 - In your .forEach() method's callback function, return a new instance of TabLink and pass in each tab as a parameter
 
 */
-console.log('lol');
+
 
 const tabs = document.querySelectorAll('.tab');
 tabs.forEach(tab => new TabLink(tab));
