@@ -32,13 +32,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+- The document object model 
+
 2. What is an event?
+
+- They are actions that happen within the DOM
 
 3. What is an event listener?
 
+- A type of action that happens to trigger an event
+
 4. Why would we convert a NodeList into an Array?
 
+- to gain access to more methods like .map()
+
 5. What is a component?
+
+- a reuseable piece of code that is independent of the scope of the application
 
 ### Git Set up
 
